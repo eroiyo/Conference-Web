@@ -28,6 +28,7 @@ body {
   font-family: "Lato", sans-serif;
   text-align: left;
   width: 100%;
+  font-weight:500;
 }
 .first {
   max-width: 100%;
@@ -258,6 +259,16 @@ a {
 .ubication{
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0px;
+  padding-bottom:  15px;
+  margin-bottom: 0px;
+  
+}
+
+.time{
+  font-family: Cocogoose;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 img {
@@ -362,8 +373,12 @@ margin-bottom: 75px;
   width: 100%;
   height: 100%;
   border-width: 2px;
+  border-color: transparent;
+  border-style: solid
+}
+
+.card:hover{
   border-color: white;
-  border-style:solid;
 }
 
 .mp-title{
@@ -647,5 +662,114 @@ footer{
 
   nav{
     height:62px;
+  }
+  .opacity-div{
+    height: 150px;
+  }
+  blockquote{
+    padding-top: 120px;
+  }
+  .landing-info{
+    width: 40%;
+  }
+  .time,
+  .ubication,
+  .landing-info,
+  h1,
+  blockquote
+  {
+    margin-left: 10%;
+  }
+
+  .ubication{
+    padding-bottom: 185px;
+  }
+
+  .cv5{
+    left: 2.5%;
+  }
+  .cv2{
+    right: 30%;
+    width: 120px;
+    height: 120px;
+  }
+  .cv1{
+    top: 45%;
+    width: 88px;
+    height: 88px;
+  }
+  .cv6{
+    width: 120px;
+    height: 120px;
+  }
+  .cv11{
+    position: absolute;
+    right: 25%;
+    bottom: 2%;
+    width: 120px;
+    height: 100px;
+  }
+  .cv8{
+    position: absolute;
+    right: 65%;
+    bottom: 0%;
+    width: 120px;
+    height: 120px;
+  }
+  .cv9{
+    position: absolute;
+    right: 15%;
+    bottom: 75%;
+    width: 120px;
+    height: 120px;
+  }
+  .cv10{
+    position: absolute;
+    right: 90%;
+    bottom: 0%;
+    width: 120px;
+    height: 120px;
+  }
+
+  .cv4{
+    left: 2%;
+  }
+  .cv3{
+    left: 65%;
+    width: 110px;
+    height: 110px;
+  }
+  .card-container{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap:10px;
+    margin-bottom: 190px;
+  }
+  .card {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .card-info{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .speakers-container{
+    width: 75%;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    margin-bottom: 50px;
+  }
+  .speaker{
+    margin-bottom: 0px;
+  }
+  .speaker-name{
+    font-size: 18px;
+  }
+  .speaker-title{
+    font-size: 20px;
+  }
+  .speaker-info{
+    font-size: 16px;
   }
 }

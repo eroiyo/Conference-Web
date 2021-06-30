@@ -20,7 +20,6 @@ function phone(screenSize) {
         clickFunction();
       }
     }
-    he
   }
 
 phone(screenSize);
