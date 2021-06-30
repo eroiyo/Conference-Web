@@ -30,7 +30,7 @@ body {
   width: 100%;
 }
 .first {
-  max-width: 100%px;
+  max-width: 100%;
   height: auto;
 }
 
@@ -41,6 +41,11 @@ header {
   z-index: 3;
   display: flex;
   height: 20vw;
+  background-color: white;
+}
+
+#phone-header{
+  background-color: transparent;
 }
 
 nav {
@@ -263,6 +268,7 @@ img {
 .logo {
   width: 56px;
   height: 62px;
+  margin-right: 70%;
 }
 
 .opacity-div{
@@ -595,10 +601,27 @@ footer{
   margin-bottom: 0px;
 }
 
+.history{
+  border-top-color: #D3D3D3;
+  border-top-style: solid;
+  border-width: 2px;
+}
+
 .history-title{
   margin-bottom: 0px;
   font-size: 30px;
   font-weight: 900;
+}
+
+.nav1-text{
+  color: black;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family:Lato;
+  margin-right: 10%;
+}
+.nav1-text:hover{
+  color:#EC5242
 }
 
 @media screen and (min-width: 768px) {
@@ -615,9 +638,14 @@ footer{
     padding-top: 62px;
   }
 
-  .header{
+  header{
     background-color: white;
     filter: drop-shadow(0 0 16px rgba(64, 83, 252, 0.24));
-    height: 7vh;
+    height: 62px;
+    display: flex;
+  }
+
+  nav{
+    height:62px;
   }
 }

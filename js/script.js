@@ -1,5 +1,6 @@
 const nav2 = document.querySelector('.secondary-nav');
 const phoneHeader = document.getElementById('phone-header');
+const screenSize = window.matchMedia('(min-width: 768px)');
 
 function clickFunction() {
     const para = document.getElementById('toggle-icon');
@@ -12,3 +13,15 @@ function clickFunction() {
         phoneHeader.style.backgroundColor ="transparent"
     }
 }
+
+function phone(screenSize) {
+    if (screenSize.matches) {
+      if (nav2.style.display === 'flex') {
+        clickFunction();
+      }
+    }
+    he
+  }
+
+phone(screenSize);
+screenSize.addListener(phone);
