@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-[Live Demo](https://eroiyo.github.io/My-Portafolio/)
+[Live Demo](eroiyo.github.io/conference-Web/)
 
 ## Explaining Video
 
@@ -20,9 +20,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-Any web browser (Google Chrome, Firefox, Microsoft Edge, etc.)
-Visual Studio Code
-Node.JS
+Any web browser (Google Chrome, Firefox, Microsoft Edge, etc.), Visual Studio Code and Node.JS
 
 ### Setup
 
