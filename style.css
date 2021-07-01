@@ -494,6 +494,29 @@ margin-bottom: 75px;
   top:20%;
 }
 
+.more{
+  width: 90%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid lightslategray;
+  border-radius: 2px;
+  margin-bottom: 50px;
+}
+
+.more:hover {
+  background-color: #ec5242;
+  color: white;
+}
+
 .partner-section{
 background-color: #272A31;
 }
@@ -667,6 +690,10 @@ footer{
 
   width: 80%;
   height: 80%;
+}
+
+.none{
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -878,8 +905,8 @@ footer{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
-    
   }
+
   .partner-element{
     display: flex;
     justify-content: center;
@@ -891,5 +918,8 @@ footer{
   .partner-image{
     width: 100%;
     height: auto;
+  }
+  .none{
+    display: none;
   }
 }
