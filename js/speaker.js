@@ -59,7 +59,7 @@ function Speaker(object) {
     speaker.appendChild(bigDiv);
     il.appendChild(speaker);
     objetive.appendChild(il);
-    return(il);
+    return (il);
   }
 }
 export default Speaker;
