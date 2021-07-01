@@ -13,11 +13,9 @@ for (let i = 0; i < mySpeakers.length; i += 1) {
     list.push(button);
   }
 }
-for (const i in list) {
-  if(i>=0){
-    const a = list[i];
-    a.classList.add('desktop-only');
-  }
+for (let i =0; i < list.length; i+= 1) {
+  const a = list[i];
+  a.classList.add('desktop-only');
 }
 
 function more() {
