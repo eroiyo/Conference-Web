@@ -493,13 +493,14 @@ margin-bottom: 75px;
   top:20%;
 }
 
-.partner{
+.partner-section{
 background-color: #272A31;
 }
 
 footer{
   background-color: #ec5242;
-  color:white
+  color:white;
+  height: 155px;
 }
 
 .footer-img{
@@ -538,6 +539,7 @@ footer{
 
 .contact-me{
   width: 65%;
+  font-weight: 800;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5px;
@@ -562,7 +564,8 @@ footer{
 }
 
 .logo-history-info{
-  color: #272A31;
+  color: black;
+  font-weight: 800;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -580,8 +583,12 @@ footer{
 }
 
 .history-container{
+  display: grid;
+}
+
+.history-box{
   font-family: Cocogoose;
-  border: grey;
+  border: rgb(240, 237, 237);
   border-width: 1px;
   border-style: solid;
   width: 90%;
@@ -639,6 +646,28 @@ footer{
   color:#EC5242
 }
 
+.partners-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  grid-template-columns : 1fr 1fr 1fr;
+  grid-auto-rows: 1fr;
+}
+
+.partner-element{
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  min-width: 33.33%;
+  max-width: 50%;
+}
+
+.partner-image{
+
+  width: 80%;
+  height: 80%;
+}
+
 @media screen and (min-width: 768px) {
 
   .desktop-only{
@@ -663,15 +692,23 @@ footer{
   nav{
     height:62px;
   }
+
   .opacity-div{
     height: 150px;
   }
+
+  od2{
+    height: 200px;
+  }
+
   blockquote{
     padding-top: 120px;
   }
+
   .landing-info{
     width: 40%;
   }
+
   .time,
   .ubication,
   .landing-info,
@@ -734,24 +771,29 @@ footer{
   .cv4{
     left: 2%;
   }
+
   .cv3{
     left: 65%;
     width: 110px;
     height: 110px;
   }
+
   .card-container{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap:10px;
     margin-bottom: 190px;
   }
+
   .card {
     display: grid;
     grid-template-columns: 100%;
   }
+
   .card-info{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+  
   }
   .speakers-container{
     width: 75%;
@@ -760,16 +802,93 @@ footer{
     grid-gap: 50px;
     margin-bottom: 50px;
   }
+
   .speaker{
     margin-bottom: 0px;
   }
+
   .speaker-name{
     font-size: 18px;
   }
+
   .speaker-title{
     font-size: 20px;
   }
+
   .speaker-info{
     font-size: 16px;
+  }
+
+  .footer-img{
+    margin-right: 20%;
+  }
+
+  .about-title{
+    padding-top: 72px;
+    margin-bottom: 12px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-info{
+    width: 65%;
+    padding: 8px;
+    line-height: 28px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .about-title-bar{
+    width: 6%;
+  }
+
+  .email{
+    margin-bottom: 80px;
+  }
+
+  .logo-history-title{
+    margin-top: 72px;
+    font-size: 28px;
+  }
+
+  .logo-history-info{
+    width: 65%;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 26px;
+  }
+  .logo-container{
+    width: 65%;
+  }
+  .history-container{
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75px;
+  }
+
+  .partners-container{
+    display: flex;
+    flex-wrap:nowrap;
+    flex-direction: row;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    
+  }
+  .partner-element{
+    display: flex;
+    justify-content: center;
+    min-width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .partner-image{
+    width: 100%;
+    height: auto;
   }
 }
