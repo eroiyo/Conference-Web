@@ -26,7 +26,7 @@ function Speaker(object) {
   }
   this.appear = function () {
     const objetive = document.querySelector('.speakers-container');
-    const il = document.createElement('il');
+    const li = document.createElement('li');
     const speaker = document.createElement('div');
     speaker.classList.add('speaker');
     const photo = document.createElement('div');
@@ -55,11 +55,11 @@ function Speaker(object) {
     bigDiv.appendChild(sName);
     bigDiv.appendChild(sTitle);
     bigDiv.appendChild(bar);
-    bigDiv.appendChild(sInformation)
+    bigDiv.appendChild(sInformation);
     speaker.appendChild(bigDiv);
-    il.appendChild(speaker);
-    objetive.appendChild(il);
-    return (il);
-  }
+    li.appendChild(speaker);
+    objetive.appendChild(li);
+    return (li);
+  };
 }
 export default Speaker;
