@@ -13,7 +13,7 @@ for (let i = 0; i < mySpeakers.length; i += 1) {
     list.push(button);
   }
 }
-for (let i =0; i < list.length; i+= 1) {
+for (let i = 0; i < list.length; i += 1) {
   const a = list[i];
   a.classList.add('desktop-only');
 }
