@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Cocogoose;
+  font-family: Cocogoose, sans-serif;
   src: url("assest/Cocogoose.ttf");
 }
 
@@ -20,13 +20,14 @@
 }
 
 body {
+  margin: 1px;
   background-color: white;
-  margin: 0px;
   font-family: "Lato", sans-serif;
   text-align: left;
   width: 100%;
   font-weight: 500;
 }
+
 .first {
   max-width: 100%;
   height: auto;
@@ -48,7 +49,6 @@ header {
 }
 
 nav {
-  height: 7vh;
   display: flex;
   height: 62px;
 }
@@ -98,7 +98,7 @@ nav {
 a {
   color: white;
   text-decoration: none;
-  font-family: Cocogoose;
+  font-family: Cocogoose, sans-serif;
 }
 
 .secondary-nav {
@@ -256,14 +256,14 @@ a {
 .ubication {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0px;
+  margin-top: 1px;
   padding-bottom: 15px;
-  margin-bottom: 0px;
+  margin-bottom: 1px;
 }
 
 .time {
-  font-family: Cocogoose;
-  margin-top: 0px;
+  font-family: Cocogoose sans-serif;
+  margin-top: 1px;
   margin-bottom: 10px;
 }
 
@@ -284,23 +284,21 @@ img {
 }
 
 .opacity-img {
-  left: 0px;
   opacity: 10%;
   position: absolute;
 }
 
 .background-img {
-  left: 0px;
   opacity: 20%;
   position: absolute;
 }
 
 blockquote {
-  margin: 0px 0px;
+  margin: 1px 1px;
   font-size: 22px;
   color: #ec5242;
   padding-top: 60px;
-  font-family: Cocogoose;
+  font-family: Cocogoose, sans-serif;
 }
 
 .landing-info {
@@ -318,7 +316,7 @@ blockquote {
 h1 {
   font-size: 42px;
   color: #ec5242;
-  font-family: Cocogoose;
+  font-family: Cocogoose, sans-serif;
 }
 
 .about-title {
@@ -360,7 +358,6 @@ ul {
 
 .card {
   background-color: rgb(255, 255, 255, 0.1);
-  width: 90%;
   margin-left: auto;
   margin-right: auto;
   display: grid;
@@ -433,8 +430,8 @@ ul {
 }
 
 .speaker-name {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 1px;
+  margin-bottom: 1px;
   font-size: 14px;
 }
 
@@ -454,7 +451,7 @@ ul {
 }
 
 .speaker-bar {
-  background-color: lightgrey;
+  background-color: grey;
   height: 2px;
   width: 10%;
   margin-bottom: 10px;
@@ -471,10 +468,6 @@ ul {
   width: 100%;
   height: 100%;
   z-index: 1;
-}
-
-.speaker-bar {
-  background-color: grey;
 }
 
 .face {
@@ -522,7 +515,6 @@ footer {
 .footer-img {
   width: 56px;
   height: 62px;
-  margin-bottom: 0px;
   margin-right: 7.5%;
   margin-top: auto;
   margin-bottom: auto;
@@ -571,8 +563,9 @@ footer {
   background-color: white;
   font-size: 14px;
 }
+
 .logo-history-title {
-  font-family: Cocogoose;
+  font-family: Cocogoose, sans-serif;
   font-size: 16px;
   width: 65%;
   margin-left: auto;
@@ -603,7 +596,7 @@ footer {
 }
 
 .history-box {
-  font-family: Cocogoose;
+  font-family: Cocogoose, sans-serif;
   border: rgb(240, 237, 237);
   border-width: 1px;
   border-style: solid;
@@ -636,7 +629,7 @@ footer {
 }
 
 .no-margin {
-  margin-bottom: 0px;
+  margin-bottom: 1px;
 }
 
 .history {
@@ -646,7 +639,7 @@ footer {
 }
 
 .history-title {
-  margin-bottom: 0px;
+  margin-bottom: 1px;
   font-size: 30px;
   font-weight: 900;
 }
@@ -655,9 +648,10 @@ footer {
   color: black;
   margin-top: auto;
   margin-bottom: auto;
-  font-family: Lato;
+  font-family: Lato, sans-serif;
   margin-right: 10%;
 }
+
 .nav1-text:hover {
   color: #ec5242;
 }
@@ -742,20 +736,24 @@ footer {
   .cv5 {
     left: 2.5%;
   }
+
   .cv2 {
     right: 30%;
     width: 120px;
     height: 120px;
   }
+
   .cv1 {
     top: 45%;
     width: 88px;
     height: 88px;
   }
+
   .cv6 {
     width: 120px;
     height: 120px;
   }
+
   .cv11 {
     position: absolute;
     right: 25%;
@@ -763,6 +761,7 @@ footer {
     width: 120px;
     height: 100px;
   }
+
   .cv8 {
     position: absolute;
     right: 65%;
@@ -770,6 +769,7 @@ footer {
     width: 120px;
     height: 120px;
   }
+
   .cv9 {
     position: absolute;
     right: 15%;
@@ -777,6 +777,7 @@ footer {
     width: 120px;
     height: 120px;
   }
+
   .cv10 {
     position: absolute;
     right: 90%;
@@ -811,6 +812,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
+
   .speakers-container {
     width: 75%;
     grid-auto-rows: 1fr;
@@ -820,7 +822,7 @@ footer {
   }
 
   .speaker {
-    margin-bottom: 0px;
+    margin-bottom: 1px;
   }
 
   .speaker-name {
@@ -874,9 +876,11 @@ footer {
     font-weight: 900;
     line-height: 26px;
   }
+
   .logo-container {
     width: 65%;
   }
+
   .history-container {
     grid-template-columns: 1fr 1fr;
     width: 80%;
@@ -907,6 +911,7 @@ footer {
     width: 100%;
     height: auto;
   }
+
   .none {
     display: none;
   }
