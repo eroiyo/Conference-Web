@@ -1,0 +1,13 @@
+.footer-container {
+  background-color: #2e2e2e;
+  color: white;
+  font-weight: 800;
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    background-color: white;
+    color: black;
+  }
+}
