@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-[Live Demo](eroiyo.github.io/conference-Web/)
+[Live Demo](https://eroiyo.github.io/Conference-Web/)
 
 ## Explaining Video
 
@@ -39,6 +39,8 @@ Run Index.html using Visual Studio code, after that open index.html or about.htm
 
 ## 🤝 Contributing
 
+Original design idea by Cindy Shin there is she's [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), Thanks to she we have this amazing layout, please go to she's site and give some love to she's works!
+
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/eroiyo/Conference-Web/issues).
@@ -48,14 +50,12 @@ You will be very welcome!
 
 Microverse
 
+Cindy Shin
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## 📝 Disclaimer!
-
-Original design idea by Cindy Shin in Behance, Thanks to she we have this amazing layout!
-
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/") licensed.
