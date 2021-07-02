@@ -397,8 +397,8 @@ ul {
   color: white;
 }
 
-.grey{
-  color:#959597;
+.grey {
+  color: #959597;
 }
 
 .card-title {
@@ -535,7 +535,7 @@ button {
   display: flex;
 }
 
-.partner-bar{
+.partner-bar {
   margin-bottom: 25px;
 }
 
@@ -547,7 +547,7 @@ button {
   margin-bottom: auto;
 }
 
-footer{
+footer {
   display: grid;
   grid-auto-rows: 1fr;
 }
@@ -892,7 +892,7 @@ footer{
   }
 
   .footer-container {
-    background-color: #2E2E2E;
+    background-color: #2e2e2e;
     color: white;
   }
 
