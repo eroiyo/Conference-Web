@@ -20,9 +20,9 @@ function phone(screenSize) {
     if (nav2.style.display === 'flex') {
       clickFunction();
     }
-    logo.src ="assest/WWCB.png"
-  }else{
-    logo.src ="assest/WWC.jpg"
+    logo.src = 'assest/WWCB.png';
+  } else {
+    logo.src = 'assest/WWC.jpg';
   }
 }
 
