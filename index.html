@@ -15,46 +15,150 @@
 </head>
 
 <body>
-    <header>
+    <header class="desktop-only">
+        <div class="login-bar">
+            <div class="social-media">
+                <a href="https://web.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <ul class="bar-actions">
+                    <li><button type="button">Logout</button></li>
+                    <li><button type="button">Mypage</button></li>
+                    <li><button type="button">English</button></li>
+                </ul>
+            </div>
+        </div>
         <nav>
-            <a href="#" class="logo-container"><img class="logo" src="assest/WWC.jpg" alt="logo"></a>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Join</a>
+            <a href="./index.html" class="logo"><img class="logo" src="assest/WWC.jpg" alt="logo"></a>
+            <a class="nav1-text" href="./index.html">Home</a>
+            <a class="nav1-text" href="./about.html">About</a>
+        </nav>
+    </header>
+    <header class="phone-only" id="phone-header">
+        <a class="menu">
+            <div id="toggle-icon" onclick="clickFunction()">
+                <div class="hbar1"></div>
+                <div class="hbar2"></div>
+                <div class="hbar3"></div>
+            </div>
+        </a>
+        <nav class="secondary-nav">
+            <div onclick="clickFunction()" class="nav2-element nav2-first"><a href="./index.html"
+                    class="portfolio-nav2">
+                    <h2 class="nav2-text">Home</h2>
+                </a>
+            </div>
+            <div class="nav2-element" onclick="clickFunction()"><a href="./about.html" class="about-nav2">
+                    <h2 class="nav2-text">About</h2>
+                </a>
+            </div>
         </nav>
     </header>
     <section class="phone-testing">
         <section class="landing">
-            <blockquote>
-                "Hello sharing World"
-            </blockquote>
-            <h1>Creative Commons Global Summit 2015</h1>
-            <p>A joyful Celebration Believing in the value of openn and sharing, creating a positive change with people
-                from over 80 countries is taking place in October, in Korea</hp>
-                <h2>2015.10.15(THU) ~ 16(FRI)</h2>
-                <h3>@ National Museum of Korea, Art Center nabi and more</h3>
+            <div class="opacity-div">
+                <img src="assest/chocotable.jpg" class="opacity-img" alt="table with chocolates">
+                <blockquote>
+                    "THE MOST DELICIOUS CHOCOLATE IN THE WORLD IS BACK!"
+                </blockquote>
+            </div>
+            <div class="go-over">
+                <img src="assest/CV15.png" class="cv cv5 r65" alt="chocovector">
+                <img src="assest/CV10.png" class="cv cv1 r-45" alt="chocovector">
+                <img src="assest/CV3.png" class="cv cv7 r-90" alt="chocovector">
+                <img src="assest/CV8.png" class="cv cv2 r45" alt="chocovector">
+                <img src="assest/CV2.png" class="cv cv3 r90" alt="chocovector">
+                <img src="assest/CV5.png" class="cv cv4 r180" alt="chocovector">
+                <img src="assest/CV1.png" class="cv cv6" alt="chocovector">
+                <img src="assest/CV6.png" class="cv cv11 desktop-only" alt="chocovector">
+                <img src="assest/CV12.png" class="cv cv8 desktop-only" alt="chocovector">
+                <img src="assest/CV13.png" class="cv cv9 desktop-only r-45" alt="chocovector">
+                <img src="assest/CV16.png" class="cv cv10 desktop-only" alt="chocovector">
+                <h1>World Chocolate Convention 2021</h1>
+                <p class="landing-info">Chocolate aficionados, fanatics, lovers and addicts can taste & experience the
+                    finest in artisan, gourmet & premium chocolate in one of the world’s great culinary metropolitan
+                    areas.</p>
+                <h2 class="time">2021.11.18(THURSDAY) ~ 21(SUNDAY)</h2>
+                <h3 class="ubication">@ New York State, United States of America</h3>
+            </div>
         </section>
         <section class="main-program">
-            <h2>Main Program</h2>
+            <h2 class="mp-title white">Main Program</h2>
             <div class="bar"></div>
             <ul class="card-container">
-                <il>
+                <li>
                     <div class="card">
                         <i class="fa fa-cutlery i" aria-hidden="true"></i>
-                        <h3>Title</h3>
-                        <p>A Concert and various music, dance and poetry performances</p>
+                        <h3 class="card-title">Choco Tasting </h3>
+                        <p class="card-info"> try the chocolate made with the best cocoa bean plantations around the
+                            most exotic places on earth.</p>
                     </div>
-                </il>
-                <il>
+                </li>
+                <li>
                     <div class="card">
-                        <i class="fa fa-cutlery i" aria-hidden="true"></i>
-                        <h3>Title</h3>
-                        <p>A Concert and various music, dance and poetry performances</p>
+                        <i class="fa fa-microphone i" aria-hidden="true"></i>
+                        <h3 class="card-title">Hear our speakers</h3>
+                        <p class="card-info"> Hear ours speakers Discuss about important topics in chocolate, food,
+                            travel and conservation</p>
                     </div>
-                </il>
+                </li>
+                <li>
+                    <div class="card">
+                        <i class="fa fa-diamond i" aria-hidden="true"></i>
+                        <h3 class="card-title">Competences</h3>
+                        <p class="card-info">Be the best! enchace your branch, meet new tastemakers in our competitions,
+                            go for the gold! </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <i class="fa fa-music i" aria-hidden="true"></i>
+                        <h3 class="card-title">Music </h3>
+                        <p class="card-info">We also have a very nice ambient, we have invited some good bands, so you
+                            can enjoy the event in a lot of ways</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <i class="fa fa-beer i" aria-hidden="true"></i>
+                        <h3 class="card-title">Alcohol Drinks</h3>
+                        <p class="card-info">Eat chocolate by itself is a experience, eat it with some drinks is
+                            completly
+                            other experience!</p>
+                    </div>
+                </li>
             </ul>
         </section>
+        <section class="speakers">
+            <h2 class="mp-title ">Featured Speakers</h2>
+            <div class="bar"></div>
+            <ul class="speakers-container">
+            </ul>
+            <button class="phone-only more" type="button">More <i class="fa fa-arrow-down"
+                    aria-hidden="true"></i></button>
+        </section>
+        <footer>
+        <div class="partner-section">
+            <h2 class="mp-title grey">Partner</h2>
+            <div class="bar partner-bar"></div>
+            <div class="partners-container">
+                <div class="partner-element"><img src="assest/R_ferrero.png" class="partner-image" alt="Ferrero"></div>
+                <div class="partner-element"><img src="assest/R_cote.png" class="partner-image" alt="Cote"></div>
+                <div class="partner-element"><img src="assest/R_lindt.png" class="partner-image" alt="Lindt"></div>
+                <div class="partner-element"><img src="assest/R_milka.png" class="partner-image" alt="Milka"></div>
+                <div class="partner-element"><img src="assest/R_valrhona.png" class="partner-image" alt="Valrhona">
+                </div>
+            </div>
+        </div>
+        <div class="footer-container">
+            <div class="two-elements">
+                <img src="assest/WWC.jpg" class="footer-img" alt="logo">
+                <p>2021 Chocolate World Convention, this is a template site, the information inside may not be real, and should not be trated as a veridic or true information, for information to a veridic chocolate convention, please go to other site </p>
+            </div>
+        </div>
+    </footer>
     </section>
+    <script src="./js/script.js"></script>
+    <script type="module" src="./js/index.js"></script>
 </body>
 
 </html>
