@@ -529,8 +529,8 @@ button {
 }
 
 .footer-container {
-  background-color: white;
-  color: black;
+  background-color: #2e2e2e;
+  color: white;
   font-weight: 800;
   display: flex;
 }
@@ -892,8 +892,8 @@ footer {
   }
 
   .footer-container {
-    background-color: #2e2e2e;
-    color: white;
+    background-color: white;
+    color: black;
   }
 
   .about-title {
