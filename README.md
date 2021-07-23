@@ -30,7 +30,7 @@ Unzip the files and leave them all in the same folder
 
 👤 **Arturo Ortega**
 
-- GitHub: [@eroiyo](https://eroiyo.github.io/My-Portafolio/)
+- GitHub: [@eroiyo](https://github.com/eroiyo)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/carlos-arturo-ortega-guanipa-39a1a5204/)
 
 ### Usage
