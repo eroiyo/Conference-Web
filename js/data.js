@@ -2,14 +2,14 @@ const data = [{
   id: 0,
   name: 'Maribel Lieberman',
   title: 'MariBelle New York Founder',
-  information: 'A artisan with passion for discovering and sharing new flavors, has  seen her continually reinvent how we enjoy chocolate.',
+  information: 'An artisan with a passion for discovering and sharing new flavors has seen her continually reinvent how we enjoy chocolate.',
   img: 'assest/Maribel.png',
 },
 {
   id: 1,
   name: 'Jon Payson',
   title: 'The Chocolate Room Co-Owner',
-  information: 'Created a cafe specializing in high-end chocolate, extraordinary desserts, handmade ice creams, wines and beers.',
+  information: 'Created a cafe specializing in high-end chocolate, extraordinary desserts, handmade ice creams, wines, and beers.',
   img: 'assest/Jon.png',
 },
 {
@@ -30,14 +30,14 @@ const data = [{
   id: 4,
   name: 'Lawren Askinosie',
   title: 'Askinosie Chocolate CMO',
-  information: 'They dedicated not just to making the best quality chocolate you can buy, but to making it in such a way that the more you learn about it.',
+  information: 'They are dedicated not just to making the best quality chocolate you can buy, but to making it in such a way that the more you learn about it.',
   img: 'assest/Lawren.png',
 },
 {
   id: 5,
   name: 'Katrina Markoff',
   title: 'Vosge Owner',
-  information: 'She harness the power of storytelling to open minds, spirits and palates through chocolate, inspiring us all to interact with the world in a more loving way',
+  information: 'She harnesses the power of storytelling to open minds, spirits and palates through chocolate, inspiring us all to interact with the world in a more loving way.',
   img: 'assest/Katrina.png',
 },
 ];
