@@ -10,10 +10,6 @@
 
 [Live Demo](https://eroiyo.github.io/Conference-Web/)
 
-## Explaining Video
-
-https://www.loom.com/share/1b7e1dcc020a406d9c442dec9d894c7a
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
